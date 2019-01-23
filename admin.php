@@ -1,10 +1,10 @@
 <?php
 $cn = new mysqli("localhost", "web", "1234", "quiz");
-$sql= "SELECT * FROM quiz;";
+$sql= "SELECT * FROM quiz1;";
 $result= $cn->query($sql);
 echo "<pre>";#user friendly view
 print_r($result);
-$sql = "SELECT id, name, date, score, phone FROM quiz;";
+$sql = "SELECT id, name, date, score, phone FROM quiz1;";
 $result = $cn->query($sql);
 
 if ($result->num_rows > 0) {

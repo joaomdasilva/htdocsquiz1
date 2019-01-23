@@ -24,7 +24,7 @@ if($_POST){
     	$phone=$_POST['phone'];
 	$score=$grade;
 	#extract($_POST); #explode o conteudo de um array e faz aparecer no codigo variaveis cujo nome sao as chaves de tal array
-    	$sql="Insert into quiz (name, email, `date`, phone, score) values ('$name', '$email', '$date', '$phone', $score);";
+    	$sql="Insert into quiz1 (name, email, `date`, phone, score) values ('$name', '$email', '$date', '$phone', $score);";
 
 	#echo $sql;
 
